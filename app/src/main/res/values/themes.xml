@@ -15,5 +15,6 @@
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/white</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">true</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@color/transparent</item>
     </style>
 </resources>

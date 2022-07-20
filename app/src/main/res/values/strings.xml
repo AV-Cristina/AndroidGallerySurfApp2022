@@ -2,4 +2,26 @@
     <string name="app_name">CristinaGallery</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login">Вход</string>
+    <string name="user_login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="to_login">Войти</string>
+    <string name="field_cannot_be_empty">Поле не может быть пустым</string>
+    <string name="username_or_password_entered_incorrectly">Логин или пароль введен неправильно</string>
+    <string name="loading_failed">Не удалось загрузить ленту</string>
+    <string name="refresh_or_try_later">Обновите экран или попробуйте позже</string>
+    <string name="no_internet_connection">Отсутствует интернет-соединение</string>
+    <string name="try_later">Попробуйте позже</string>
+    <string name="enter_your_request">Введите ваш запрос</string>
+    <string name="search">Поиск</string>
+    <string name="search_has_no_result">По этому запросу нет результатов, попробуйте другой запрос</string>
+    <string name="main">Главная</string>
+    <string name="favorites">Избранное</string>
+    <string name="profile">Профиль</string>
+    <string name="my_favorites">Мои избранные</string>
+    <string name="remove_from_favorites_notification">Вы точно хотите удалить из избранного?</string>
+    <string name="no">нет</string>
+    <string name="yes">да, точно</string>
+    <string name="to_log_out">Выйти</string>
 </resources>
