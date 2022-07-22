@@ -5,17 +5,36 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.cristina.cristinagallery.R
+import com.cristina.cristinagallery.databinding.FragmentAuthorizationBinding
+import com.google.android.material.snackbar.Snackbar
 
 /**
  * Экран авторизации
  */
 class AuthorizationFragment : Fragment() {
 
+    private lateinit var binding: FragmentAuthorizationBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_authorization, container, false)
+    ): View {
+        binding = FragmentAuthorizationBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.loginBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_authorizationFragment_to_mainFragment)
+            // TODO: Remove after debug
+//            Snackbar.make(
+//                binding.root,
+//                resources.getString(R.string.username_or_password_entered_incorrectly),
+//                Snackbar.LENGTH_LONG
+//            ).setAnchorView(binding.loginBtn).show()
+        }
     }
 }
