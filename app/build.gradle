@@ -71,4 +71,8 @@ dependencies {
     // Kotlin navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // RedMadRobot input-mask-android
+    implementation "com.github.RedMadRobot:input-mask-android:6.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.0"
 }

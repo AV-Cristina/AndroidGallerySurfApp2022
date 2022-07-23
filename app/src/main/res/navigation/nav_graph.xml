@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/authorizationFragment"
-        android:name="com.cristina.cristinagallery.presentation.AuthorizationFragment"
+        android:name="com.cristina.cristinagallery.presentation.auth.AuthorizationFragment"
         android:label="fragment_authorization"
         tools:layout="@layout/fragment_authorization" >
         <action

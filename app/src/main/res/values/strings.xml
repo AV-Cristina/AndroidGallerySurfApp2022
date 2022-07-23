@@ -8,7 +8,9 @@
     <string name="password">Пароль</string>
     <string name="login_btn_text">Войти</string>
     <string name="field_cannot_be_empty">Поле не может быть пустым</string>
-    <string name="username_or_password_entered_incorrectly">Логин или пароль введен неправильно</string>
+    <string name="login_not_valid_error">Не верный формат номера телефона</string>
+    <string name="password_not_valid_error">Пароль должен быть от 6 до 255 символов</string>
+    <string name="login_or_password_entered_incorrectly">Логин или пароль введен неправильно</string>
     <string name="loading_failed">Не удалось загрузить ленту</string>
     <string name="refresh_or_try_later">Обновите экран или попробуйте позже</string>
     <string name="no_internet_connection">Отсутствует интернет-соединение</string>

@@ -6,10 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.cristina.cristinagallery.R
+import dagger.hilt.android.AndroidEntryPoint
 
 /**
  * Главный экран
  */
+@AndroidEntryPoint
 class MainFragment : Fragment() {
 
     override fun onCreateView(

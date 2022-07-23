@@ -9,10 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.cristina.cristinagallery.R
+import dagger.hilt.android.AndroidEntryPoint
 
 /**
  * Сплеш экран
  */
+@AndroidEntryPoint
 class SplashFragment : Fragment() {
 
     override fun onCreateView(
