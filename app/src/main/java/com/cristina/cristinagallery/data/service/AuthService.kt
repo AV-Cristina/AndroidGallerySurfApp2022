@@ -8,6 +8,6 @@ import retrofit2.http.POST
 interface AuthService {
 
     // Авторизация пользователя по логину и паролю
-    @POST("/auth/login")
+    @POST("auth/login")
     suspend fun auth(@Body authRequest: AuthRequest): AuthResponse
 }
